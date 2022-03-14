@@ -20,17 +20,17 @@ export default class Projects extends Component {
               <div className="projects-grid-zero">
                 <div className="project-one">
                   <Card shadow={5}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5wIiElencE4D-Cv1f3YqouHUFVmmrNzikLVk9ADs244_WBzomw) center / cover'}}>Todo List app</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5wIiElencE4D-Cv1f3YqouHUFVmmrNzikLVk9ADs244_WBzomw) center / cover'}}>Miracle</CardTitle>
                     <CardText>
-                        Build a Todo list application with Laravel.
+                        Build a ecommerce handmade website.
                     </CardText>
                     <CardActions border>
-                        <Button colored>
-                          <a href="https://github.com/PhyoPyae94/Todos" rel="noopener noreferrer" target="_blank">Github</a>
-                        </Button>
-                        <Button colored>
-                          <a href="http://ppztodos.000webhostapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a>
-                        </Button>
+                        <a href="/#" onClick={(e) => e.preventDefault()} rel="noopener noreferrer" target="_blank">
+                          <Button colored>Github</Button>
+                        </a>
+                        <a href="http://miracle.freecluster.eu/" rel="noopener noreferrer" target="_blank">
+                          <Button colored>Live Demo</Button>
+                        </a>
                     </CardActions>
                     <CardMenu style={{ color: '#fff' }}>
                       {/* <IconButton name="share" /> */}
@@ -46,13 +46,12 @@ export default class Projects extends Component {
                         Build a CMS blog website with Laravel.
                     </CardText>
                     <CardActions border>
-                        <Button colored>
-                          <a href="https://github.com/PhyoPyae94/cms" rel="noopener noreferrer" target="_blank">Github</a>
-                        </Button>
-                        <Button colored>
-                          <a href="https://zreader.000webhostapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a>
-                        </Button>
-                        <Button colored></Button>
+                        <a href="/#" onClick={(e) => e.preventDefault()} rel="noopener noreferrer" target="_blank">
+                          <Button colored>Github</Button>
+                        </a>
+                        <a href="/#" onClick={(e) => e.preventDefault()} rel="noopener noreferrer" target="_blank">
+                          <Button colored>Live Demo</Button>
+                        </a>
                     </CardActions>
                     <CardMenu style={{ color: '#fff' }}>
                       {/* <IconButton name="share" /> */}
