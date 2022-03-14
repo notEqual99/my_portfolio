@@ -73,12 +73,12 @@ export default class Projects extends Component {
                             Building Portfolio Website using ReactJs.
                         </CardText>
                         <CardActions border>
-                            <Button colored>
-                            <a href="https://github.com/PhyoPyae94/ppzweb" rel="noopener noreferrer" target="_blank">Github</a>
-                            </Button>
-                            <Button colored>
-                            <a href="https://phyopyaezaw.netlify.com" rel="noopener noreferrer" target="_blank">Live Demo</a>
-                            </Button>
+                            <a href="https://github.com/PhyoPyae94/ppzweb" rel="noopener noreferrer" target="_blank">
+                              <Button colored>Github</Button>
+                            </a>
+                            <a href="https://phyopyaezaw.netlify.com" rel="noopener noreferrer" target="_blank">
+                              <Button colored>Live Demo</Button>
+                            </a>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                         {/* <IconButton name="share" /> */}
@@ -104,12 +104,12 @@ export default class Projects extends Component {
                             Building Simple responsive website with html, css, jquery and bootstrap.
                         </CardText>
                         <CardActions border>
-                            <Button colored>
-                            <a href="https://github.com/PhyoPyae94/sbp" rel="noopener noreferrer" target="_blank">Github</a>
-                            </Button>
-                            <Button colored>
-                            <a href="https://loso-responsive.netlify.com" rel="noopener noreferrer" target="_blank">Live Demo</a>
-                            </Button>
+                            <a href="https://github.com/PhyoPyae94/sbp" rel="noopener noreferrer" target="_blank">
+                              <Button colored>Github</Button>
+                            </a>
+                            <a href="https://loso-responsive.netlify.com" rel="noopener noreferrer" target="_blank">
+                              <Button colored>Live Demo</Button>
+                            </a>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                         {/* <IconButton name="share" /> */}
