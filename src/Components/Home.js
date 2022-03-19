@@ -19,7 +19,6 @@ const Home = () => {
                 </Col>
             </Row>
             <br/>
-            <hr/>
         </div>
     );
 };
