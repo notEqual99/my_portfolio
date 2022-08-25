@@ -10,7 +10,12 @@ const Portfolio = () => {
             <Row className="portfolio mt-3 p-3">
                 <Col sm={3}></Col>
                 <Col sm={6}>
-                    <h2><u>Portfolio</u></h2><br/>
+                    <h2><u>Portfolio</u></h2>
+                {/* 2022 - present*/}
+                    <h4>Freelance developer</h4>
+                    <h5>2022 - present</h5>
+                    <p>- Currently devloping a ethereum web3 web application which connect with blockchain smart contract using laravel framework for backend and react, as a freelance developer.</p>
+                    
                 {/* 2019 - 2021*/}
                     <h4>Honestrades Myanmar</h4>
                     <input className="portfolio-image" type="image" img="true" src={Honestrades} width={"250px"} height={"400px"} alt={"honestrades"}/>
@@ -26,7 +31,7 @@ const Portfolio = () => {
                     <input className="portfolio-image" type="image" img="true" src={Phglobal} width={"250px"} height={"400px"} alt={"phGlobal-logo"}/>
                     <br/><br/>
                     <h5>2018 - 2019</h5>
-                    <p>Before Web Developer job, I worked a year of experience on Site Engineer at MyatMingalar Condomium project and 68 Residence project with PH Global Co., Ltd. After that I changed my career and work as a developer.</p>
+                    <p>Before Web Developer job, I have 1 year worked experience as a Site Engineer at MyatMingalar Condomium project and 68 Residence project with PH Global Co., Ltd. After that I changed my career and work as a developer.</p>
                     <p>Visit PH Global <a className="portfo-link" href="https://www.facebook.com/PH-Global-Trading-Co-Ltd-880147878715006/">facebook</a> page.</p>
                 </Col>
                 <Col sm={3}></Col>
