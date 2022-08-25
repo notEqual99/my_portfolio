@@ -43,7 +43,7 @@ export default class Projects extends Component {
                   <Card shadow={5}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5wIiElencE4D-Cv1f3YqouHUFVmmrNzikLVk9ADs244_WBzomw) center / cover'}}>Vooks</CardTitle>
                     <CardText>
-                        Build a online books libraries with Laravel.
+                        Build a online books library with Laravel.
                     </CardText>
                     <CardActions border>
                         <a href="https://gitlab.com/phyopyae.za94/vooks" rel="noopener noreferrer" target="_blank">
