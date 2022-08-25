@@ -1,0 +1,39 @@
+
+/* .about {
+    background-color: #18171766 !important;
+} */
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.profileimage {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .profileimage {
+        width: 100%;
+        height: auto;
+    }
+}
+.portfolio-image {
+    margin: auto;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+}
+@media only screen and (max-width: 480px) {
+    .portfolio-image {
+      width: 100%;
+      height: auto;
+    }
+}
+.home {
+    text-align: center;
+}

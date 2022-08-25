@@ -1,2 +1,4 @@
-# my_portfolio
-build my portfolio web page
+# Portfolio website
+
+Making portfolio website using react, react-router and react-bootstrap.
+
