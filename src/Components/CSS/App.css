@@ -1,6 +1,8 @@
 html {width: auto!important; overflow-x: hidden!important} 
 
 body {
+    margin: 0;
+    min-height: 100vh;
     background-color: #b6b6b6;
     overflow-y: inherit; /* Hide vertical scrollbar */
     overflow-x: hidden !important; /* Hide horizontal scrollbar */
@@ -15,7 +17,9 @@ body {
 
 .footer{
   text-align: center;
-  margin: 10px 3px 50px 3px;
+  margin: 10px 3px 15px 3px;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
 }
 .footer a {
   color: blue;

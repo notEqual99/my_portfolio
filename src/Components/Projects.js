@@ -25,10 +25,10 @@ export default class Projects extends Component {
                         Build a ecommerce handmade website.
                     </CardText>
                     <CardActions border>
-                        <a href="/#" onClick={(e) => e.preventDefault()} rel="noopener noreferrer" target="_blank">
+                        <a href="https://github.com/notEqual99/miracle" rel="noopener noreferrer" target="_blank">
                           <Button colored>Github</Button>
                         </a>
-                        <a href="http://miracle.freecluster.eu/" rel="noopener noreferrer" target="_blank">
+                        <a href="http://miracle.ezyro.com/" rel="noopener noreferrer" target="_blank">
                           <Button colored>Live Demo</Button>
                         </a>
                     </CardActions>
@@ -41,15 +41,15 @@ export default class Projects extends Component {
               {/* project 2 */}
                 <div className="project-one">
                   <Card shadow={5}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5wIiElencE4D-Cv1f3YqouHUFVmmrNzikLVk9ADs244_WBzomw) center / cover'}}>Z-Reader</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5wIiElencE4D-Cv1f3YqouHUFVmmrNzikLVk9ADs244_WBzomw) center / cover'}}>Vooks</CardTitle>
                     <CardText>
-                        Build a CMS blog website with Laravel.
+                        Build a online books libraries with Laravel.
                     </CardText>
                     <CardActions border>
-                        <a href="/#" onClick={(e) => e.preventDefault()} rel="noopener noreferrer" target="_blank">
-                          <Button colored>Github</Button>
+                        <a href="https://gitlab.com/phyopyae.za94/vooks" rel="noopener noreferrer" target="_blank">
+                          <Button colored>Gitlab</Button>
                         </a>
-                        <a href="/#" onClick={(e) => e.preventDefault()} rel="noopener noreferrer" target="_blank">
+                        <a href="http://vooks.ezyro.com/" rel="noopener noreferrer" target="_blank">
                           <Button colored>Live Demo</Button>
                         </a>
                     </CardActions>
@@ -64,9 +64,9 @@ export default class Projects extends Component {
         }else if(this.state.activeTab === 1){
             // react
             return(
-                <div>
+                <div className="projects-grid-zero">
                 {/* project 1 */}
-                    <div className="project-one" style={{miniWidth: '450', margin: 'auto'}}>
+                    <div className="project-one">
                     <Card shadow={5}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>Portfolio Website</CardTitle>
                         <CardText>
@@ -95,7 +95,7 @@ export default class Projects extends Component {
             // others project
         }else if(this.state.activeTab === 3){
             return(
-                <div>
+                <div className="projects-grid-zero">
                 {/* static */}
                     <div className="project-one" style={{miniWidth: '450', margin: 'auto'}}>
                     <Card shadow={5}>
