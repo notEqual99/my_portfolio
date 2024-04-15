@@ -5,7 +5,7 @@ import Footer from './Footer';
 import './CSS/App.css';
 
 import Home from './Home';
-import Portfolio from './Portfolio';
+import About from './About';
 import Blog from './Blog';
 import Projects from './Projects';
 
@@ -18,7 +18,7 @@ const App = () => {
                 <Navigation/>
                 <Routes>
                     <Route path="/" exact element={<Home/>}/>
-                    <Route path="/portfolio" element={<Portfolio/>}/>
+                    <Route path="/about" element={<About/>}/>
                     <Route path="/blogs" element={<Blog/>}/>
                     <Route path="/projects" element={<Projects/>}/>
                 </Routes>

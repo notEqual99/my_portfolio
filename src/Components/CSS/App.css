@@ -15,12 +15,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.footer{
+.footer {
   text-align: center;
   margin: 10px 3px 15px 3px;
   padding: 10px 10px 0px 10px;
   bottom: 0;
 }
 .footer a {
-  color: blue;
+  color: #212529;
+}
+.footer a:hover {
+  color: #f1f4c6;
 }

@@ -1,24 +1,85 @@
-import { Row,Col,Card } from 'react-bootstrap';
+import { Row, Col, Card, Button, Collapse } from 'react-bootstrap';
 import './CSS/Home.css';
-import MyProfile from '../images/MyProfile.jpg';
+import JobCareer from './JobCareer';
+import Skill from './Skill';
 
 const Home = () => {
-    return(
+    return (
         <div className="container-fluid">
             <Row className="mt-3 p-3 pb-0">
-                <Col sm={3}>
+                <Col sm={1}></Col>
+                <Col sm={10}>
+                    <Card className="profile-ctn">Profile</Card>
                 </Col>
-                <Col sm={6}>
-                    <Card className="profileimage" border="secondary">
-                        <input type="image" img="true" src={MyProfile} alt={"myProfileFoto"} className="img-responsive"/>
-                    </Card>
-                    <br/>
-                    <h5 className="home">Phyo Pyae Zaw is a Web Developer from Yangon Myanmar, working on making independently design and developing website. </h5>
-                    <p className="home line-1 anim-typewriter">And learning, thinking and coding about web development, how to create, how to maintain and how to design with the following skills.</p>
-                    <p className="home"><strong>HTML/CSS | Javascript | React | PHP | Laravel | MySQL/PostgreSQL</strong></p>
-                </Col>
+                <Col sm={1}></Col>
             </Row>
-            <br/>
+            <Row className="mt-1 p-3 pb-0">
+                <Col sm={1}></Col>
+                <Col sm={10}>
+                    <div className="first-history">
+                        <div className="card">
+                            <div className="card-header profile-info">
+                                Career
+                            </div>
+                            <div className="card-body">
+                                <p className="card-text">Web Developer</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-header profile-info">
+                                Engineering History
+                            </div>
+                            <div className="card-body">
+                                <p className="card-text">Over <strong>4</strong> years</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-header profile-info">
+                                Activity Area
+                            </div>
+                            <div className="card-body">
+                                <p className="card-text">Bangkok</p>
+                            </div>
+                        </div>
+                    </div>
+                </Col>
+                <Col sm={1}></Col>
+            </Row>
+            <Row className="mt-1 p-3 pb-0">
+                <Col sm={1}></Col>
+                <Col sm={10}>
+                    <div className="second-history">
+                        <div className="card">
+                            <div className="card-header profile-info">
+                                Language Good At
+                            </div>
+                            <div className="card-body">
+                                <p className="card-text">PHP ( Laravel )</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-header profile-info">
+                                OS Can Be Used 
+                            </div>
+                            <div className="card-body">
+                                <p className="card-text">Linux ( Debian, Arch ), Windows</p>
+                            </div>
+                        </div>
+                    </div>
+                </Col>
+                <Col sm={1}></Col>
+            </Row>
+            <Row className="mt-3 p-3 pb-0">
+                <Col sm={1}></Col>
+                <Col sm={10}>
+                    <Card className="profile-ctn">Career History</Card>
+                </Col>
+                <Col sm={1}></Col>
+            </Row>
+            <JobCareer/>
+            <Skill/>
+            <Col sm={1}></Col>
+            <br />
         </div>
     );
 };

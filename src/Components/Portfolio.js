@@ -11,10 +11,15 @@ const Portfolio = () => {
                 <Col sm={3}></Col>
                 <Col sm={6}>
                     <h2><u>Portfolio</u></h2>
-                {/* 2022 - present*/}
+                {/* 2022 - 2023*/}
+                    <h4>MYSOL Co., Ltd.</h4>
+                    <h5>2023 - 2024</h5>
+                    <p>- In Mysol, maintain, bugs fixed and implements task by task japanese websites and web apps</p>
+                {/* 2022 - 2023*/}
                     <h4>Freelance developer</h4>
-                    <h5>2022 - present</h5>
-                    <p>- Currently devloping a ethereum web3 web application which connect with blockchain smart contract using laravel framework for backend and react, as a freelance developer.</p>
+                    <h5>2022 - 2023</h5>
+                    <p>- As a freelance developer, devloped an ethereum web3 web application which connect with blockchain smart contract used with laravel framework for backend and react for front which connected with METAMASK wallet.</p>
+                    <hr className="hr"/>
                     
                 {/* 2019 - 2021*/}
                     <h4>Honestrades Myanmar</h4>
@@ -22,10 +27,11 @@ const Portfolio = () => {
                     <br/><br/>
                     <h5>2019 - 2021</h5>
                     <p>- Honestrades is a World's first and only agriculture-specific platform for direct sellers and buyers to trade anytime and anywhere on mobile application for Myanmar. ( Investment by Singapore's government ).<br/>
-                    - At Honestrades I worked as a backend developer, helping and discuss business flow, server management and maintain and  API development for web app.</p>
+                    - At Honestrades I worked as a backend developer, helping and discuss business flow, server management and maintained and API development for web app.</p>
                     <p>Visit the <a className="portfo-link" href="https://honestrades.com">website</a> and download for app <a className="portfo-link" href="https://play.google.com/store/apps/details?id=com.honestholding.honestrades.mainapp">here</a>.</p>
                     <p className="text-danger">!!! Unfotunately Singapore's Government stopped to invest due to state of emergency of myanmar. !!!</p>
-                    <hr/>
+                    <hr className="hr"/>
+
                 {/* 2018 - 2019 */}
                     <h4>PH Global Co., Ltd</h4>
                     <input className="portfolio-image" type="image" img="true" src={Phglobal} width={"250px"} height={"400px"} alt={"phGlobal-logo"}/>

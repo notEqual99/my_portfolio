@@ -5,3 +5,6 @@
 .portfo-link:hover{
     color: black;
 }
+.hr{
+    border-top: 1px solid black;
+}
