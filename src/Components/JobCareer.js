@@ -19,6 +19,66 @@ const JobCareer = () => {
 
     return (
         <div>
+            {/* one hotel company */}
+            <Row className="mt-3 p-3 pb-0">
+            <Col sm={1}></Col>
+                <Col sm={10}>
+                    <div className="d-flex align-items-center justify-content-between mb-3 pb-1" style={{ borderBottom: '3px solid #9e9e9e' }}>
+                        <h5 className="m-0">May 2024 - June 2024 / <a href="https://www.onehotel.asia/" className="company-name">One Hotel Asia Co.,Ltd</a> ( Full Time )</h5>
+                    </div>
+                    <div className='card-header' onClick={() => toggleCollapse(6)} aria-controls="multiCollapseExample1" aria-expanded={openCollapse === 1}>
+                        <div className="d-flex justify-content-between align-items-center w-100">
+                            <span>May 2023 to June 2024 (2 months) / Hotel PMS system contains Channel manager, Booking Engine.</span>
+                            <span>{openCollapse === 6 ? caretUp : caretDown}</span>
+                        </div>
+                    </div>
+                    <Row>
+                        <Col>
+                            <Collapse in={openCollapse === 6}>
+                                <div className="col-12 row career-detail">
+                                    <div className="card-body col-6">
+                                        [Summary]<br/>
+                                        - Implemented new features in PMS system.<br/>
+                                        - Making hotel porfolio website.<br/>
+                                        - Fixed and support what hotel customer desired.<br/> 
+                                        - Add new feature in company account and task system.<br/><br/>
+                                        [Info]<br/>
+                                        - <a className="text-danger" href="https://www.onehotel.asia/">https://www.onehotel.asia/</a><br/>
+                                        - <a className="text-danger" href="https://1hotelrez.com/">https://1hotelrez.com/</a><br/><br/>
+                                        [Source/project management]<br/>
+                                        - FTP<br/><br/>
+                                        [Communication tool]<br/>
+                                        - Microsoft Team
+                                    </div>
+                                    <div className="card-body col-3">
+                                        [OS]<br/>
+                                        - Windows<br/><br/>
+                                        [DB]<br/>
+                                        - MySQL<br/><br/>
+                                        [Language]<br/>
+                                        - PHP, Javascript<br/><br/>
+                                        [Framework/Library]<br/>
+                                        - Pure PHP, CMS, Wordpress<br/><br/>
+                                        [Editor/IDE]<br/>
+                                        VSCode<br/><br/>
+                                        [Tool]<br/>
+                                        - WinSCP<br/><br/>
+                                    </div>
+                                    <div className="card-body col-3">
+                                        [Role]<br/>
+                                        Programmer<br/><br/>
+                                        [Responsible process]<br/>
+                                        Implementation, testing, bug fixed<br/><br/>
+                                        
+                                    </div>
+                                </div>
+                            </Collapse>
+                        </Col>
+                    </Row>
+                </Col>
+                <Col sm={1}></Col>
+            </Row>
+
             <Row className="mt-3 p-3 pb-0">
                 <Col sm={1}></Col>
                 <Col sm={10}>

@@ -6,7 +6,7 @@ const Skill = () => {
             <Row className="mt-3 p-3 pb-0">
                 <Col sm={1}></Col>
                 <Col sm={10}>
-                    <Card className="profile-ctn">Skill Set</Card>
+                    <Card className="profile-ctn">Skills Set</Card>
                     <div className='table-responsive'>
                         <div className='mt-2 mb-3'>
                             ◎ Support not required, ◯ Support required for high difficulty level, △ Support required, ⬆︎ Learning, × Not available
@@ -178,6 +178,11 @@ const Skill = () => {
                                 </tr>
                                 <tr>
                                     <td><span>◎</span> Bitrix24</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span>◎</span> Microsoft Team</td>
                                     <td></td>
                                     <td></td>
                                 </tr>
