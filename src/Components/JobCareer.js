@@ -38,10 +38,10 @@ const JobCareer = () => {
                                 <div className="col-12 row career-detail">
                                     <div className="card-body col-6">
                                         [Summary]<br/>
-                                        - Implemented new features in PMS system.<br/>
-                                        - Making hotel porfolio website.<br/>
-                                        - Fixed and support what hotel customer desired.<br/> 
-                                        - Add new feature in company account and task system.<br/><br/>
+                                        - Implemented new features in Hotel PMS system.<br/>
+                                        - Build hotel porfolio websites.<br/>
+                                        - Fixed and supported what hotel owners desired.<br/> 
+                                        - Add new features in company account, sales and tasks system.<br/><br/>
                                         [Info]<br/>
                                         - <a className="text-danger" href="https://www.onehotel.asia/">https://www.onehotel.asia/</a><br/>
                                         - <a className="text-danger" href="https://1hotelrez.com/">https://1hotelrez.com/</a><br/><br/>

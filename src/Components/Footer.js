@@ -22,7 +22,7 @@ const Footer = () => {
                     <h4>You can find me on</h4>
                     <p>
                         {telegramIcon} <a href="https://telegram.me/phyo_pyae_zaw" target="_blank" rel="noreferrer">Telegram　</a>
-                        {githubIcon} <a href="https://github.com/PhyoPyae94" target="_blank" rel="noreferrer"> Github　</a>
+                        {githubIcon} <a href="https://github.com/notEqual99" target="_blank" rel="noreferrer"> Github　</a>
                         {mailIcon} <a href="mailto:phyopyae.za94@gmail.com?subject=greeting" target="_blank" title="phyopyae.za94@gmail.com" rel="noreferrer">Gmail　</a>
                         {lineIcon} phy0pyaezaw
                     </p>

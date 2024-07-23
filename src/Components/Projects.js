@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu } from 'react-mdl';
 import 'react-mdl/extra/material.css';   
 import 'react-mdl/extra/material.js';
+import Vooks from '../images/projects/vooks.png';
+import Miracle from '../images/projects/miracle.png';
+import Breakthefast from '../images/projects/breakthefast.png';
 
 
 import './CSS/project_card.css';
@@ -18,17 +21,20 @@ export default class Projects extends Component {
             // laravel
             return(
               <div className="projects-grid-zero">
+                {/* Vooks */}
                 <div className="project-one">
                   <Card shadow={5}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5wIiElencE4D-Cv1f3YqouHUFVmmrNzikLVk9ADs244_WBzomw) center / cover'}}>Miracle</CardTitle>
+                    {/* <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5wIiElencE4D-Cv1f3YqouHUFVmmrNzikLVk9ADs244_WBzomw) center / cover'}}>Vooks</CardTitle> */}
+                    <CardTitle className='card-title' style={{ color: '#fff', height: '176px', background: `url(${Vooks}) center / cover` }}></CardTitle>
                     <CardText>
-                        Build an ecommerce handmade website.
+                        <p style={{ fontSize: '20px' }}><strong>Vooks</strong></p>
+                        Build an online free books library website.
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/notEqual99/miracle" rel="noopener noreferrer" target="_blank">
-                          <Button colored>Github</Button>
+                        <a href="https://gitlab.com/phyopyae.za94/vooks" rel="noopener noreferrer" target="_blank">
+                          <Button colored>Gitlab</Button>
                         </a>
-                        <a href="http://miracle.ezyro.com/" rel="noopener noreferrer" target="_blank">
+                        <a href="http://vooks.liveblog365.com/" rel="noopener noreferrer" target="_blank">
                           <Button colored>Live Demo</Button>
                         </a>
                     </CardActions>
@@ -37,19 +43,44 @@ export default class Projects extends Component {
                     </CardMenu>
                   </Card>
                 </div>
-    
-              {/* project 2 */}
+
+                {/* Miracle */}
                 <div className="project-one">
                   <Card shadow={5}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5wIiElencE4D-Cv1f3YqouHUFVmmrNzikLVk9ADs244_WBzomw) center / cover'}}>Vooks</CardTitle>
+                    {/* <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5wIiElencE4D-Cv1f3YqouHUFVmmrNzikLVk9ADs244_WBzomw) center / cover'}}>Miracle</CardTitle> */}
+                    <CardTitle className='card-title' style={{ color: '#fff', height: '176px', background: `url(${Miracle}) center / cover` }}></CardTitle>
                     <CardText>
-                        Build an online books library with Laravel.
+                      <p style={{ fontSize: '20px' }}><strong>Miracle</strong></p>
+                      Build an ecommerce handmade website.
                     </CardText>
                     <CardActions border>
-                        <a href="https://gitlab.com/phyopyae.za94/vooks" rel="noopener noreferrer" target="_blank">
-                          <Button colored>Gitlab</Button>
+                        <a href="https://github.com/notEqual99/miracle" rel="noopener noreferrer" target="_blank">
+                          <Button colored>Github</Button>
                         </a>
-                        <a href="http://vooks.ezyro.com/" rel="noopener noreferrer" target="_blank">
+                        <a href="http://miracle.unaux.com/" rel="noopener noreferrer" target="_blank">
+                          <Button colored>Live Demo</Button>
+                        </a>
+                    </CardActions>
+                    <CardMenu style={{ color: '#fff' }}>
+                      {/* <IconButton name="share" /> */}
+                    </CardMenu>
+                  </Card>
+                </div>
+
+                {/* Breakthefast */}
+                <div className="project-one">
+                  <Card shadow={5}>
+                    {/* <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5wIiElencE4D-Cv1f3YqouHUFVmmrNzikLVk9ADs244_WBzomw) center / cover'}}>Breakthefast</CardTitle> */}
+                    <CardTitle className='card-title' style={{ color: '#fff', height: '176px', background: `url(${Breakthefast}) center / cover` }}></CardTitle>
+                    <CardText>
+                      <p style={{ fontSize: '20px' }}><strong>Breakthefast</strong></p>
+                      Build an selling food and beverage website.
+                    </CardText>
+                    <CardActions border>
+                        <a href="https://github.com/notEqual99/breakthefast" rel="noopener noreferrer" target="_blank">
+                          <Button colored>Github</Button>
+                        </a>
+                        <a href="http://breakthefast.liveblog365.com/" rel="noopener noreferrer" target="_blank">
                           <Button colored>Live Demo</Button>
                         </a>
                     </CardActions>
@@ -76,7 +107,7 @@ export default class Projects extends Component {
                             <a href="https://github.com/PhyoPyae94/ppzweb" rel="noopener noreferrer" target="_blank">
                               <Button colored>Github</Button>
                             </a>
-                            <a href="https://phyopyaezaw.netlify.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://phyopyaezaw.netlify.app" rel="noopener noreferrer" target="_blank">
                               <Button colored>Live Demo</Button>
                             </a>
                         </CardActions>
@@ -107,7 +138,7 @@ export default class Projects extends Component {
                             <a href="https://github.com/PhyoPyae94/sbp" rel="noopener noreferrer" target="_blank">
                               <Button colored>Github</Button>
                             </a>
-                            <a href="https://loso-responsive.netlify.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://loso-responsive.netlify.app" rel="noopener noreferrer" target="_blank">
                               <Button colored>Live Demo</Button>
                             </a>
                         </CardActions>
