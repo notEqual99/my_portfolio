@@ -9,13 +9,13 @@ const Skill = () => {
                     <Card className="profile-ctn">Skills Set</Card>
                     <div className='table-responsive'>
                         <div className='mt-2 mb-3'>
-                            ◎ Support not required, ◯ Support required for high difficulty level, △ Support required, ⬆︎ Learning, × Not available
+                            <strong>◎ Support not required, ◯ Support required for high difficulty level, △ Support required, ⬆︎ Learning, × Not available</strong>
                         </div>
                         <table className="table table-sm skill-table text-nowrap">
                             <thead className="thead-light">
                                 <tr>
-                                    <th colspan="3">Type</th>
-                                    <th colspan="1">Remarks</th>
+                                    <th colSpan="3">Type</th>
+                                    <th colSpan="1">Remarks</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -38,7 +38,7 @@ const Skill = () => {
                             <tbody>
                                 <tr>
                                     <td rowSpan={5}>
-                                        <span>Database</span>
+                                        <span>Databases</span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -51,21 +51,21 @@ const Skill = () => {
                                     <td></td>
                                     <td></td>
                                 </tr>
+                                <tr>
+                                    <td><span>△</span> MongoDB (⬆︎)</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
                             </tbody>
                             {/* Language */}
                             <tbody>
                                 <tr>
                                     <td rowSpan={7}>
-                                        <span>Language</span>
+                                        <span>Languages</span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><span>◎</span> HTML</td>
-                                    <td></td>
-                                    <td><span></span></td>
-                                </tr>
-                                <tr>
-                                    <td><span>◎</span> CSS</td>
+                                    <td><span>◎</span> HTML | CSS</td>
                                     <td></td>
                                     <td><span></span></td>
                                 </tr>
@@ -77,13 +77,18 @@ const Skill = () => {
                                 <tr>
                                     <td><span>◯</span> Javascript</td>
                                     <td></td>
-                                    <td></td>
+                                    <td><span></span></td>
                                 </tr>
-                                <tr>
+                                {/* <tr>
+                                    <td><span>◯</span> </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr> */}
+                                {/* <tr>
                                     <td><span>△</span> Node.js</td>
                                     <td></td>
                                     <td></td>
-                                </tr>
+                                </tr> */}
                                 <tr>
                                     <td><span>⬆︎</span> Elixir</td>
                                     <td></td>
@@ -93,8 +98,8 @@ const Skill = () => {
                             {/* Framework */}
                             <tbody>
                                 <tr>
-                                    <td rowSpan={7}>
-                                        <span>Framework</span>
+                                    <td rowSpan={9}>
+                                        <span>Frameworks</span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -108,12 +113,17 @@ const Skill = () => {
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td><span>◯</span> React.js</td>
+                                    <td><span>◯</span> Symfony</td>
                                     <td></td>
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td><span>◯</span> Next.js</td>
+                                    <td><span>◯</span> Next</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span>◯</span> Node | Express (⬆︎)</td>
                                     <td></td>
                                     <td></td>
                                 </tr>
@@ -132,13 +142,18 @@ const Skill = () => {
                             <tbody>
                                 <tr>
                                     <td rowSpan={5}>
-                                        <span>Library</span>
+                                        <span>Libraries</span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><span>◎</span> Jquery/ Ajax</td>
                                     <td></td>
                                     <td><span></span></td>
+                                </tr>
+                                <tr>
+                                    <td><span>◯</span> React (⬆︎)</td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><span>◯</span> Axios</td>

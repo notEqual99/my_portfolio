@@ -7,12 +7,15 @@ body {
     overflow-y: inherit; /* Hide vertical scrollbar */
     overflow-x: hidden !important; /* Hide horizontal scrollbar */
     width: auto !important;
-    padding-top: 70px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
       "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  padding-top: 70px;
 }
 
 .footer {

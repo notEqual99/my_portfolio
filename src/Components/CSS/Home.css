@@ -21,6 +21,24 @@
         height: auto;
     }
 }
+@media only screen and (max-width: 915px) {
+  .profileintro {
+      flex-direction: column; /* Stack columns vertically */
+      justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        height: auto; /* Allow content height to be dynamic */
+  }
+
+  .profile-container {
+      order: 1;
+      width: 100%;
+  }
+
+  .about-ctn {
+      order: 2;
+      width: 100%;
+  }
+}
 .portfolio-image {
     margin: auto;
     width: 250px;
@@ -54,3 +72,54 @@
 .skill-table tr {
     border-bottom: 2px solid #9e9e9e;
 }
+
+.profile-container {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Circular frame */
+    overflow: hidden; /* Ensures no content goes outside the circle */
+    border: 5px solid #212529; /* Custom border color */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .profile-container:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+  }
+  
+  .profile-placeholder {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #212529; /* Match the border color */
+    background: #fff; /* Background color inside the circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .profile-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0; /* Hidden initially */
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .profile-container:hover .profile-placeholder {
+    opacity: 0; /* Hide the "?" on hover */
+  }
+  
+  .profile-container:hover .profile-image {
+    opacity: 1; /* Show the image on hover */
+  }
+  
+  
