@@ -18,9 +18,9 @@ export default class Navigation extends Component {
                         <Navbar.Collapse id='responsive-navbar-nav'>
                             <Nav className="right-nav navbar-collapse justify-content-end">
                                 <Nav.Link eventKey="1" as={Link} to="/">Home</Nav.Link>
+                                <Nav.Link eventKey="4" as={Link} to="/projects">Projects</Nav.Link>
                                 <Nav.Link eventKey="2" as={Link} to="/about">About</Nav.Link>
                                 {/* <Nav.Link eventKey="3" as={Link} to="/blogs">Blog</Nav.Link> */}
-                                <Nav.Link eventKey="4" as={Link} to="/projects">Projects</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

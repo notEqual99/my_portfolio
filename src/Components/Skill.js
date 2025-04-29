@@ -52,7 +52,7 @@ const Skill = () => {
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td><span>△</span> MongoDB (⬆︎)</td>
+                                    <td><span>◯</span> MongoDB (⬆︎)</td>
                                     <td></td>
                                     <td></td>
                                 </tr>
@@ -79,16 +79,21 @@ const Skill = () => {
                                     <td></td>
                                     <td><span></span></td>
                                 </tr>
+                                <tr>
+                                    <td><span>◯</span> GraphQL</td>
+                                    <td></td>
+                                    <td><span></span></td>
+                                </tr>
                                 {/* <tr>
                                     <td><span>◯</span> </td>
                                     <td></td>
                                     <td></td>
                                 </tr> */}
-                                {/* <tr>
-                                    <td><span>△</span> Node.js</td>
+                                <tr>
+                                    <td><span>△ </span> Typescript(⬆︎)</td>
                                     <td></td>
                                     <td></td>
-                                </tr> */}
+                                </tr>
                                 <tr>
                                     <td><span>⬆︎</span> Elixir</td>
                                     <td></td>
@@ -156,7 +161,7 @@ const Skill = () => {
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td><span>◯</span> Axios</td>
+                                    <td><span>◎</span> Axios</td>
                                     <td></td>
                                     <td></td>
                                 </tr>

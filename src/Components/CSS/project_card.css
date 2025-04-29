@@ -34,15 +34,31 @@ a:hover{
   margin-bottom: 50px;
 }
 
+.mdl-card__supporting-text {
+  /* width: 100%; */
+  display: inline-block; /* or block if you want it on its own line */
+  width: auto;
+  height: auto;
+  max-width: 100%; /* Prevent overflow */
+  white-space: normal; /* Allow wrapping */
+  word-wrap: break-word;
+}
+
 .card-title {
   color: #fff;
   height: 176px;
   background-size: cover;
   background-position: center;
-  transition: filter 0.3s ease; /* Smooth transition effect */
+  transition: filter 0.3s ease;
+  filter: blur(5px);
 }
 
 .card-title:hover {
-  filter: blur(5px); /* Blur effect */
+  filter: none;
+}
+
+.screenshot-modal .modal-header,
+.screenshot-modal .modal-body {
+  background-color: whitesmoke;
 }
   

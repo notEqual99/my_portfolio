@@ -4,12 +4,12 @@ import anime from 'animejs/lib/anime.es.js';
 import './CSS/Home.css';
 import MyProfile from '../images/ppz.jpg';
 
-const TextAnimation = ({ actualText, duration = 2000 }) => {
+const TextAnimation = ({ actualText, duration }) => {
     const [displayedText, setDisplayedText] = useState('');
     // const [isAnimating, setIsAnimating] = useState(true);
   
     useEffect(() => {
-      const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_+-=[]{}|;:",.<>?/`~';
+      const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 !@#$%^&* ()_+-=[]{}|;':,.<>?/ абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
       const textLength = actualText.length;
       const intervalDuration = duration / textLength;
       let currentText = Array(textLength).fill('');
@@ -73,8 +73,8 @@ const About = () => {
                 <Col sm={10}>
                     <div className='row profileintro'>
                       <div className='col-sm-8 about-ctn'>
-                          <h5 className="home"><TextAnimation actualText={'Phyo Pyae Zaw is a passionate Web Developer based in Yangon, Myanmar, with a keen interest in creating, maintaining, and designing websites. While rooted in Yangon, is also open to remote work opportunities, bringing flexibility and adaptability to collaborate with teams and clients worldwide. '}/></h5>
-                          <p className="home line-1 anim-typewriter"><TextAnimation actualText={'With a strong focus on learning, creativity, and problem-solving, constantly explores the art and science of web development, aiming to deliver efficient and visually engaging web solutions.'}/></p>
+                          <h5 className="home"><TextAnimation actualText={'Phyo Pyae Zaw is a passionate Web Developer based in Yangon, Myanmar, with a keen interest in creating, maintaining, and designing websites. While rooted in Yangon, is also open to remote work opportunities, bringing flexibility and adaptability to collaborate with teams and clients worldwide. '} duration={1000}/></h5>
+                          <p className="home line-1 anim-typewriter"><TextAnimation actualText={'With a strong focus on learning, creativity, and problem-solving, constantly explores the art and science of web development, aiming to deliver efficient and visually engaging web solutions.'} duration={2000}/></p>
                           {/* <p className="home"><strong><TextAnimation actualText={'HTML/CSS | Javascript | React | PHP | Laravel | MySQL/PostgreSQL'}/></strong></p> */}
                       </div>
                       <div className='col-sm-4'>
