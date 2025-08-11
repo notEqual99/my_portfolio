@@ -10,6 +10,7 @@ import Portfolio from './Portfolio';
 // import About from './About';
 import Blog from './Blog';
 import Projects from './Projects';
+import Err404 from './404';
 
 const App = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -35,6 +36,7 @@ const App = () => {
                                 {/* <Route path="/about" element={<About/>}/> */}
                                 <Route path="/blogs" element={<Blog/>}/>
                                 <Route path="/projects" element={<Projects/>}/>
+                                <Route path="*" element={<Err404/>}/>
                             </Routes>
                         </Router>
                         <Footer/>
