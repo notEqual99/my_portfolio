@@ -1,5 +1,8 @@
 
 /* project page */
+.category-tabs {
+  padding-top: 70px;
+}
 
 .projects-grid-zero {
   display: flex;

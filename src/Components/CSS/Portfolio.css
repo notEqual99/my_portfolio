@@ -1,4 +1,9 @@
-
+.container-fluid {
+    padding-top: 70px !important;
+}
+.portfolio-ctn{
+    padding-top: 70px !important;
+}
 .portfo-link{
     color: blue;
 }

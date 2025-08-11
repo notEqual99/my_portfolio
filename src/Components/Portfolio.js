@@ -1,49 +1,85 @@
-// import React from 'react';
-import {Col,Row} from 'react-bootstrap';
-import Honestrades from '../images/honestrades.jpg';
-import Phglobal from '../images/phglobal.jpg';
+import { Row, Col, Card } from 'react-bootstrap';
 import './CSS/Portfolio.css';
+import JobCareer from './JobCareer';
+import Skill from './Skill';
 
 const Portfolio = () => {
-    return(
-        <div className="container-fluid">
-            <Row className="portfolio mt-3 p-3">
-                <Col sm={3}></Col>
-                <Col sm={6}>
-                    <h2><u>Portfolio</u></h2>
-                {/* 2022 - 2023*/}
-                    <h4>MYSOL Co., Ltd.</h4>
-                    <h5>2023 - 2024</h5>
-                    <p>- In Mysol, maintain, bugs fixed and implements task by task japanese websites and web apps</p>
-                {/* 2022 - 2023*/}
-                    <h4>Freelance developer</h4>
-                    <h5>2022 - 2023</h5>
-                    <p>- As a freelance developer, devloped an ethereum web3 web application which connect with blockchain smart contract used with laravel framework for backend and react for front which connected with METAMASK wallet.</p>
-                    <hr className="hr"/>
-                    
-                {/* 2019 - 2021*/}
-                    <h4>Honestrades Myanmar</h4>
-                    <input className="portfolio-image" type="image" img="true" src={Honestrades} width={"250px"} height={"400px"} alt={"honestrades"}/>
-                    <br/><br/>
-                    <h5>2019 - 2021</h5>
-                    <p>- Honestrades is a World's first and only agriculture-specific platform for direct sellers and buyers to trade anytime and anywhere on mobile application for Myanmar. ( Investment by Singapore's government ).<br/>
-                    - At Honestrades I worked as a backend developer, helping and discuss business flow, server management and maintained and API development for web app.</p>
-                    <p>Visit the <a className="portfo-link" href="https://honestrades.com">website</a> and download for app <a className="portfo-link" href="https://play.google.com/store/apps/details?id=com.honestholding.honestrades.mainapp">here</a>.</p>
-                    <p className="text-danger">!!! Unfotunately Singapore's Government stopped to invest due to state of emergency of myanmar. !!!</p>
-                    <hr className="hr"/>
-
-                {/* 2018 - 2019 */}
-                    <h4>PH Global Co., Ltd</h4>
-                    <input className="portfolio-image" type="image" img="true" src={Phglobal} width={"250px"} height={"400px"} alt={"phGlobal-logo"}/>
-                    <br/><br/>
-                    <h5>2018 - 2019</h5>
-                    <p>Before Web Developer job, I have 1 year worked experience as a Site Engineer at MyatMingalar Condomium project and 68 Residence project with PH Global Co., Ltd. After that I changed my career and work as a developer.</p>
-                    <p>Visit PH Global <a className="portfo-link" href="https://www.facebook.com/PH-Global-Trading-Co-Ltd-880147878715006/">facebook</a> page.</p>
+    return (
+        <div className="container-fluid portfolio-ctn">
+            <Row className="mt-3 p-3 pb-0">
+                <Col sm={1}></Col>
+                <Col sm={10}>
+                    <Card className="profile-ctn">Profile</Card>
                 </Col>
-                <Col sm={3}></Col>
+                <Col sm={1}></Col>
             </Row>
-            <hr/>
-
+            <Row className="mt-1 p-3 pb-0">
+                <Col sm={1}></Col>
+                <Col sm={10}>
+                    <div className="first-history">
+                        <div className="card">
+                            <div className="card-header profile-info">
+                                Career
+                            </div>
+                            <div className="card-body">
+                                <p className="card-text">Web Developer</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-header profile-info">
+                                Engineering History
+                            </div>
+                            <div className="card-body">
+                                <p className="card-text">Over <strong>4</strong> years</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-header profile-info">
+                                Activity Area
+                            </div>
+                            <div className="card-body">
+                                <p className="card-text">Malaysia</p>
+                            </div>
+                        </div>
+                    </div>
+                </Col>
+                <Col sm={1}></Col>
+            </Row>
+            <Row className="mt-1 p-3 pb-0">
+                <Col sm={1}></Col>
+                <Col sm={10}>
+                    <div className="second-history">
+                        <div className="card">
+                            <div className="card-header profile-info">
+                                Language Good At
+                            </div>
+                            <div className="card-body">
+                                <p className="card-text">PHP ( Laravel )</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-header profile-info">
+                                OS Can Be Used 
+                            </div>
+                            <div className="card-body">
+                                <p className="card-text">Linux ( Debian, Arch ), Windows</p>
+                            </div>
+                        </div>
+                    </div>
+                </Col>
+                <Col sm={1}></Col>
+            </Row>
+            <Row className="mt-3 p-3 pb-0">
+                <Col sm={1}></Col>
+                <Col sm={10}>
+                    <Card className="profile-ctn">Career History</Card>
+                </Col>
+                <Col sm={1}></Col>
+            </Row>
+            <JobCareer/>
+            <Skill/>
+            <Col sm={1}></Col>
+            <br />
         </div>
     );
 };

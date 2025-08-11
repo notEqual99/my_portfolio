@@ -1,0 +1,215 @@
+{
+    "categories": {
+      "php": [
+        {
+          "id": "vooks",
+          "name": "Vooks",
+          "technologies": "Laravel | MySQL | AJAX | Jquery | Bootstrap",
+          "description": "Build an online free books library website. Users can download instantly or request missing books, while admins manage content and track community needs.",
+          "image": "vooks.png",
+          "links": {
+            "source": "https://gitlab.com/phyopyae.za94/vooks",
+            "demo": "http://vooks.liveblog365.com/"
+          },
+          "screenshots": [
+            {
+              "url": "vooks/landing.png",
+              "caption": {
+                "title": "Landing Page"
+              }
+            },
+            {
+              "url": "vooks/book_request.png",
+              "caption": {
+                "title": "Desire Book Request"
+              }
+            },
+            {
+              "url": "vooks/categories.png",
+              "caption": {
+                "title": "Book Categories"
+              }
+            }
+          ]
+        },
+        {
+          "id": "miracle",
+          "name": "Miracle",
+          "technologies": "Laravel | MySQL | AJAX | Jquery | Bootstrap",
+          "description": "Build an ecommerce handmade website. Users can buy unique handmade items, read crafting blog posts, and admins can manage products, orders, and content seamlessly.",
+          "image": "miracle.png",
+          "links": {
+            "source": "https://github.com/notEqual99/miracle",
+            "demo": "http://miracle.unaux.com/"
+          },
+          "screenshots": [
+            {
+              "url": "miracle/auth.png",
+              "caption": {
+                "title": "User Login"
+              }
+            },
+            {
+              "url": "miracle/landing.png",
+              "caption": {
+                "title": "Products Page"
+              }
+            },
+            {
+              "url": "miracle/blog.png",
+              "caption": {
+                "title": "Blogs Page"
+              }
+            }
+          ]
+        },
+        {
+          "id": "breakthefast",
+          "name": "Breakthefast",
+          "technologies": "Laravel | MySQL | AJAX | Jquery | Bootstrap",
+          "description": "Build a food ordering system designed to simplify operations for my customer who sells meals in his company. Perfect for small-to-medium restaurants, cafes, or food trucks.",
+          "image": "breakthefast.png",
+          "links": {
+            "source": "https://github.com/notEqual99/breakthefast",
+            "demo": "http://moonlit-tables.unaux.com/"
+          },
+          "screenshots": [
+            {
+              "url": "moonlit_tables/moonlitTablesMenus.png",
+              "caption": {
+                "title": "Menus"
+              }
+            },
+            {
+              "url": "moonlit_tables/moonlitTablesDetail.png",
+              "caption": {
+                "title": "Menu detail"
+              }
+            },
+            {
+              "url": "moonlit_tables/moonlitTablesAdmin.png",
+              "caption": {
+                "title": "Admin panel"
+              }
+            }
+          ]
+        }
+      ],
+      "javascript": [
+        {
+          "id": "quickchat",
+          "name": "Quickchat",
+          "technologies": "Preact | NodeJS | Websocket",
+          "description": "A minimal and simple chat application. You can chat with your friends and family. No need to register enter a chat channel between 0~9999 and can chat easily.keeping no user data.",
+          "image": "quickchat/chatRoom.png",
+          "links": {
+              "source": "https://github.com/notEqual99/quickchat-client",
+              "demo": "https://quickchatorg.netlify.app/"
+          },
+          "screenshots": [
+              {
+                  "url": "quickchat/roomNumber.png",
+                  "caption": {
+                      "title": "Choose Chat Room"
+                  }
+              },
+              {
+                  "url": "quickchat/username.png",
+                  "caption": {
+                      "title": "Take Username"
+                  }
+              },
+              {
+                  "url": "quickchat/chatRoom.png",
+                  "caption": {
+                      "title": "Chat"
+                  }
+              }
+          ]
+        },
+        {
+          "id": "mydoing",
+          "name": "Mydoing",
+          "technologies": "React | NodeJS | MongoDB | GraphQL",
+          "description": "A powerful and minimal all-in-one personal productivity tool that helps you stay organized and focused. Whether you're managing projects, daily diary, tracking expenses, or journaling your thoughts, this app has you covered.",
+          "image": "mydoing/home.png",
+          "links": {
+            "source": "https://gitlab.com/phyopyae.za94/vooks",
+            "demo": "https://mydoing.netlify.app/"
+          },
+          "screenshots": [
+            {
+              "url": "mydoing/home.png",
+              "caption": {
+                "title": "Project Management"
+              }
+            },
+            {
+              "url": "mydoing/project.png",
+              "caption": {
+                "title": "Todos List In Each Task"
+              }
+            },
+            {
+              "url": "mydoing/diary.png",
+              "caption": {
+                "title": "Daily Diary"
+              }
+            }
+          ]
+        },
+        {
+          "id": "scanit",
+          "name": "Scanit",
+          "technologies": "Preact | Typescript | Docker | AntDesign",
+          "description": "Fast, lightweight QR Code scanner and decoder built for the web. Users can upload an image or scan a QR code directly, and the app instantly decodes the data, supporting formats like URLs, WiFi credentials, SMS messages, and contact information.",
+          "image": "scanit/scanItQrScan.png",
+          "links": {
+            "source": "https://github.com/notEqual99/scanit/tree/main",
+            "demo": "https://scanit-5g0s.onrender.com/"
+          },
+          "screenshots": [
+            {
+              "url": "scanit/scanItQrScan.png",
+              "caption": {
+                "title": "QR Scan"
+              }
+            },
+            {
+              "url": "scanit/scanItQrGenerate.png",
+              "caption": {
+                "title": "QR Generate"
+              }
+            }
+          ]
+        },
+        {
+          "id": "portfolio",
+          "name": "Portfolio Website",
+          "technologies": "React",
+          "description": "Build a Portfolio website using React js.",
+          "image": "https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png",
+          "links": {
+            "source": "https://github.com/PhyoPyae94/ppzweb",
+            "demo": "https://phyopyaezaw.netlify.app"
+          },
+          "screenshots": []
+        }
+      ],
+      "elixir": [],
+      "others": [
+        {
+          "id": "responsive-website",
+          "name": "Simple Responsive Website",
+          "technologies": "HTML | CSS | JQUERY",
+          "description": "Build a simplify and user friendly responsive website.",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKHVQRQGKwkNNAmuacy-mLBGHbeN_TlTPZbprci4bp99L3mvod",
+          "links": {
+            "source": "https://github.com/PhyoPyae94/sbp",
+            "demo": "https://loso-responsive.netlify.app"
+          },
+          "screenshots": []
+        }
+      ]
+    }
+  }

@@ -6,7 +6,8 @@ import './CSS/App.css';
 import Loading from './Loading';
 
 import Home from './Home';
-import About from './About';
+import Portfolio from './Portfolio';
+// import About from './About';
 import Blog from './Blog';
 import Projects from './Projects';
 
@@ -16,7 +17,7 @@ const App = () => {
     useEffect(() => {
         setTimeout(() => {
             setIsLoading(false);
-        }, 1000);
+        }, 1500);
     }, []);
 
     return(
@@ -30,7 +31,8 @@ const App = () => {
                             <Navigation/>
                             <Routes>
                                 <Route path="/" exact element={<Home/>}/>
-                                <Route path="/about" element={<About/>}/>
+                                <Route path="/portfolio" element={<Portfolio/>}/>
+                                {/* <Route path="/about" element={<About/>}/> */}
                                 <Route path="/blogs" element={<Blog/>}/>
                                 <Route path="/projects" element={<Projects/>}/>
                             </Routes>

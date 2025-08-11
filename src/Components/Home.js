@@ -1,85 +1,96 @@
-import { Row, Col, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './CSS/Home.css';
-import JobCareer from './JobCareer';
-import Skill from './Skill';
+// import SplashCursor from './SplashCursor';
+import ShinyText from './ShinyText';
+import MatrixRain from './MatrixRain';
+import MyProfile from '../images/ppz.jpg';
 
 const Home = () => {
+    const skills = [
+        'JavaScript', 'React', 'Node.js', 'Express', 'PHP', 'Laravel',  'Git',
+        'Responsive Design', 'RESTful APIs', 'MongoDB', 'MySQL', 'PostgreSQL', 'Linux', 'Docker'
+    ];
+
     return (
-        <div className="container-fluid">
-            <Row className="mt-3 p-3 pb-0">
-                <Col sm={1}></Col>
-                <Col sm={10}>
-                    <Card className="profile-ctn">Profile</Card>
-                </Col>
-                <Col sm={1}></Col>
-            </Row>
-            <Row className="mt-1 p-3 pb-0">
-                <Col sm={1}></Col>
-                <Col sm={10}>
-                    <div className="first-history">
-                        <div className="card">
-                            <div className="card-header profile-info">
-                                Career
-                            </div>
-                            <div className="card-body">
-                                <p className="card-text">Web Developer</p>
-                            </div>
+        <div className="home-container">
+            {/* Hero Section */}
+            <section className="hero">
+                <div className="hero-content">
+                    <h1 className="hero-title">Phyo Pyae Zaw</h1>
+                    <h2 className="hero-subtitle">Web Developer</h2>
+                    <p className="hero-description">
+                        I craft exceptional digital experiences with clean, efficient code and modern web technologies.
+                    </p>
+                    <div className="cta-buttons">
+                        <a href="#contact" className="btn btn-primary">Let's Chat</a>
+                        {/* <a href="#projects" className="btn btn-primary">View My Work</a> */}
+                    </div>
+                </div>
+            </section>
+
+            {/* About Section */}
+            <section id="about" className="about-section">
+                <div className="about-container">
+                    <div className="profile-container profileimage">
+                        <img
+                        src={MyProfile}
+                        alt="Profile"
+                        className="profile-picture"
+                        />
+                    </div>
+                </div>
+                <div className="container">
+                    <h2 className="section-title">About Me</h2>
+                    <div className="about-content">
+                        <div className="about-text">
+                            <p>Hi, I'm Phyo Pyae Zaw, a passionate web developer based from Yangon, Myanmar. I specialize in creating beautiful, responsive, and user-friendly websites and web applications.</p>
+                            <p>Want to bring your business online or upgrade your existing presence? Let's work together. And as a team, we will work together to create magical things and solve your problems together to reach your goals.</p>
                         </div>
-                        <div className="card">
-                            <div className="card-header profile-info">
-                                Engineering History
-                            </div>
-                            <div className="card-body">
-                                <p className="card-text">Over <strong>4</strong> years</p>
-                            </div>
-                        </div>
-                        <div className="card">
-                            <div className="card-header profile-info">
-                                Activity Area
-                            </div>
-                            <div className="card-body">
-                                <p className="card-text">Malaysia</p>
+                        <div className="skills-container">
+                            <h3>Skills & Technologies</h3>
+                            <div className="skills-grid">
+                                {skills.map((skill, index) => (
+                                    <span key={index} className="skill-tag">
+                                        {skill}
+                                    </span>
+                                ))}
                             </div>
                         </div>
                     </div>
-                </Col>
-                <Col sm={1}></Col>
-            </Row>
-            <Row className="mt-1 p-3 pb-0">
-                <Col sm={1}></Col>
-                <Col sm={10}>
-                    <div className="second-history">
-                        <div className="card">
-                            <div className="card-header profile-info">
-                                Language Good At
-                            </div>
-                            <div className="card-body">
-                                <p className="card-text">PHP ( Laravel )</p>
-                            </div>
-                        </div>
-                        <div className="card">
-                            <div className="card-header profile-info">
-                                OS Can Be Used 
-                            </div>
-                            <div className="card-body">
-                                <p className="card-text">Linux ( Debian, Arch ), Windows</p>
-                            </div>
-                        </div>
+                    <div className="project-section">
+                        <Link to="/projects">
+                            <ShinyText 
+                                text="See Projects >>>" 
+                                disabled={false} speed={3} 
+                                className='custom-class'
+                                color='black'
+                                button={true}
+                            />
+                        </Link>
                     </div>
-                </Col>
-                <Col sm={1}></Col>
-            </Row>
-            <Row className="mt-3 p-3 pb-0">
-                <Col sm={1}></Col>
-                <Col sm={10}>
-                    <Card className="profile-ctn">Career History</Card>
-                </Col>
-                <Col sm={1}></Col>
-            </Row>
-            <JobCareer/>
-            <Skill/>
-            <Col sm={1}></Col>
-            <br />
+                </div>
+            </section>
+
+            {/* encrypt text container*/}
+            <section id="encrypt" className="encrypt-section">
+                <MatrixRain/>
+            </section>
+
+            {/* Contact Section */}
+            <section id="contact" className="contact-section">
+                <div className="container">
+                    <h2 className="section-title">Get In Touch</h2>
+                    <p className="contact-text">
+                        I'm currently looking for new opportunities. Whether you have a question or just want to say hi,
+                        I'll get back to you as soon as possible!
+                    </p>
+                    <a href="mailto:phyopyae.za94@gmail.com" className="btn btn-contact">
+                        Say Hello
+                    </a>
+                </div>
+            </section>
+
+            {/* <SplashCursor /> */}
         </div>
     );
 };

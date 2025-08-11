@@ -14,10 +14,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.app {
-  padding-top: 70px;
-}
-
 .footer {
   text-align: center;
   margin: 10px 3px 15px 3px;
