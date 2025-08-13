@@ -111,7 +111,7 @@ p {
   background-color: #b6b6b6;
   /* background-image: url('https://picsum.photos/1920/1080?grayscale'); */
   /* background-image: url('https://fastly.picsum.photos/id/434/1920/1080.jpg?grayscale&hmac=SIaw2HW33umdDLqWX21SYcHvB0OZ3imX8UoST85HPEc'); */
-  background-image: url('/src/images/home.jpeg');
+  background-image: url('/src/images/home.jpg');
   background-size: cover;
   background-position: center;
   filter: grayscale(1);
