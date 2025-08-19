@@ -11,7 +11,8 @@ export default class Navigation extends Component {
             <div className="wholeNav">
                 <Navbar collapseOnSelect className="whole-nav" expand='sm' variant='dark'>
                     <Navbar.Brand as={Link} to="/" className="nav">
-                        PhyoPyaeZaw<sub>developer</sub>
+                        PhyoPyaeZaw
+                        {/* <sub>developer</sub> */}
                     </Navbar.Brand>
                     <Container>
                         <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
